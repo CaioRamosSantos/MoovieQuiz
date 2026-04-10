@@ -50,7 +50,7 @@ type GameSocket = Socket<ClientToServerEvents, ServerToClientEvents, Record<stri
 const app = express();
 const server = http.createServer(app);
 const io = new Server<ClientToServerEvents, ServerToClientEvents, Record<string, never>, SocketData>(server, {
-  cors: { origin: '*' },
+  cors: { origin: ['http://localhost:3000', 'https://moovie-quiz.vercel.app'] }
 });
 
 app.use(express.static(path.join(__dirname, 'public')));

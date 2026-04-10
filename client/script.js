@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io(window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://mooviequiz-production.up.railway.app');
 
 const btnStart = document.getElementById('btn-start');
 const btnGuess = document.getElementById('btn-guess');
