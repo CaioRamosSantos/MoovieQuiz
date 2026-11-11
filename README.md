@@ -32,5 +32,5 @@ Jogo multiplayer em tempo real onde dois jogadores competem para adivinhar filme
 4. A partida tem 4 rodadas, o jogador com mais pontos vence
 
 ---
-##Os servidores estão fechados no momento, para jogar será necessário a instalação local na sua máquina.
+#Os servidores estão fechados no momento, para jogar será necessário a instalação local na sua máquina.
 
